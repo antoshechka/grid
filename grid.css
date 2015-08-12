@@ -1,4 +1,4 @@
-/* Layout
+/* Макет
    ========================================================================== */
 
 *, *:before, *:after {
@@ -33,7 +33,7 @@ body {
   width: 90%;
 }
 
-/* Header
+/* Заголовки
    ========================================================================== */
 
 header {
@@ -81,7 +81,7 @@ header a:hover { text-decoration: none; }
   .mobile { max-width: 250px; }
 }
 
-/* Section
+/* Разделы
    ========================================================================== */
 
 section {
@@ -96,7 +96,7 @@ section:first-of-type { border-top: none; }
   section { padding: 4rem 0; }
 }
 
-/* Mobile First Grid
+/* Сетка «Mobile First»
    ========================================================================== */
 
 .column { margin-bottom: 1.5rem; }
@@ -117,7 +117,7 @@ section:first-of-type { border-top: none; }
   .column.flow-opposite { float: right; }
 }
 
-/* Typography
+/* Типографика
    ========================================================================== */
 
 h1, h2, h3, h4, h5 {
@@ -156,7 +156,7 @@ blockquote p {
 
 cite { color: #bbb; }
 
-/* Code
+/* Код
    ========================================================================== */
 
 code {
@@ -173,7 +173,7 @@ code {
   white-space: nowrap;
 }
 
-/* Lists
+/* Списки
    ========================================================================== */
 
 ul {
@@ -185,7 +185,7 @@ ul {
   ul { display: inline-block; }
 }
 
-/* Links
+/* Ссылки
    ========================================================================== */
 
 a {
@@ -195,7 +195,7 @@ a {
 
 a:hover { text-decoration: underline; }
 
-/* Buttons
+/* Кнопки
    ========================================================================== */
 
 .button {
@@ -229,7 +229,7 @@ a:hover { text-decoration: underline; }
   }
 }
 
-/* Elements
+/* Элементы
    ========================================================================== */
 
 hr {
@@ -273,7 +273,7 @@ img {
   max-width: 440px;
 }
 
-/* Examples
+/* Примеры
    ========================================================================== */
 
 .example {
@@ -359,7 +359,7 @@ img {
   padding: 1rem 0;
 }
 
-/* Box Model
+/* Модель «Box»
    ========================================================================== */
 
 .box-model h1 { margin-bottom: 3rem; }
@@ -369,7 +369,7 @@ img {
 .padding { color: #c2ddb6; }
 .content { color: #9ec3e5; }
 
-/* Gist Overrides
+/* Переопределение сущностей
    ========================================================================== */
 
 .gist .gist-file {
@@ -394,7 +394,7 @@ img {
   font-weight: normal !important;
 }
 
-/* Animate.css by Daniel Eden
+/* Animate.css Даниэля Эдена
    ========================================================================== */
 
 .animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes fadeInUp {
@@ -450,13 +450,13 @@ img {
   animation-name: fadeInUp;
 }
 
-/* Utilities
+/* Утилиты
    ========================================================================== */
 
 .remove-padding { padding-bottom: 0; }
 .remove-border { border: none; }
 
-/* Clearfix by Nicolas Gallagher
+/* Clearfix Николаса Галлахера
    ========================================================================== */
 
 .clearfix:before,
